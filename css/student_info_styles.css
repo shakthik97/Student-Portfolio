@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/*
+    2. Remove default margin
+  */
+* {
+  margin: 0;
+}
+
+/*
+    Typographic tweaks!
+    3. Add accessible line-height
+    4. Improve text rendering
+  */
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/*
+    5. Improve media defaults
+  */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/*
+    6. Remove built-in form typography styles
+  */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/*
+    7. Avoid text overflows
+  */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/*
+    8. Create a root stacking context
+  */
+#root,
+#__next {
+  isolation: isolate;
+}
+
+* {
+  font-family: sans-serif;
+}
+
+.header {
+  color: white;
+  text-align: center;
+  padding: 40px;
+  background-color: #1E90FF;
+}
+
+.header:hover {
+  background-color: #1661ac;
+}
+
+.image-box {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+
+.image-box img {
+  border: 10px solid rgb(120, 181, 255);
+  border-radius: 50%;
+  box-shadow: 5px 5px 50px rgb(0, 0, 0);
+}
+
+.innerdetails {
+  color: rgb(25, 69, 83);
+  text-align: center;
+  padding-top: 40px;
+  font-weight: 500;
+}
+
+.different {
+
+  font-weight: 600;
+}
+
+.section02 {
+  color: white;
+  text-align: center;
+  padding: 40px;
+}
+
+.para {
+  text-align: justify;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: rgb(218, 246, 255);
+  background-color: rgb(52, 136, 179);
+  border-radius: 20px;
+  margin: 30px 300px;
+}
+
+
+.subtopic {
+  padding: 0px 0px 30px;
+}
+
+.languages {
+  padding: 40px;
+  text-align: center;
+  list-style-position: inside;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  color: rgb(25, 69, 83);
+}
+
+
+.ed {
+  width: 200px;
+  height: 200px;
+  background-color: hsl(210, 100%, 50%);
+  transition: background-color 0.5s ease;
+}
+
+.ed:hover {
+  background-color: hsl(210, 100%, 70%);
+}
+
+.projects {
+  width: 200px;
+  height: 200px;
+  background-color: hsl(210, 100%, 50%);
+  transition: background-color 0.5s ease;
+}
+
+.projects:hover {
+  background-color: hsl(210, 100%, 70%);
+}
+
+.section04 {
+  width: 200px;
+  height: 200px;
+  background-color: hsl(210, 100%, 50%);
+  transition: background-color 0.5s ease;
+}
+
+.section04:hover {
+  background-color: hsl(210, 100%, 70%);
+}
+
+
+
+.flexy {
+
+  display: flex;
+  margin: 30px;
+}
+
+.ed {
+  background-color: rgb(52, 136, 179);
+  list-style-position: inside;
+  text-align: center;
+
+  width: 500px;
+  height: 200px;
+  margin: 10px;
+  color: rgb(25, 69, 83);
+
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.projects {
+  background-color: rgb(62, 152, 232);
+  text-align: center;
+
+  padding: 20px;
+
+  width: 500px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 20px;
+
+}
+
+.section04 {
+  background-color: rgb(93, 173, 243);
+  text-align: center;
+  border-radius: 20px;
+  color: rgb(25, 69, 83);
+
+  padding: 20px;
+
+  width: 500px;
+  height: 200px;
+  margin: 10px;
+  list-style-position: inside;
+}
+
+.color {
+  color: white;
+}
+
+.foot {
+  background-color: #1E90FF;
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.foot:hover {
+  background-color: #1661ac;
+}
+
+.social-icons {
+  display: flex;
+  margin-top: 20px;
+}
+
+.social-icons img {
+  width: 40px;
+  margin: 0 10px;
+}
+
+body {
+  background: linear-gradient(to right, #87CEEB, #1E90FF);
+  margin: 0;
+  height: 100vh;
+}
+
+body:hover {
+  background: radial-gradient(Typographic);
+}
